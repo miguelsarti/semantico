@@ -1,21 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/global.css">
-    <title>Sobre</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="../css/global.css" />
+    <title>HOME</title>
 </head>
 <body>
-    <header>
-        <h1>Sobre</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="contato.html">Contato</a></li>
+    <header class="site-header">
+        <h1 class="site-title">Sobre</h1>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
             </ul>
         </nav>
     </header>
+    <main class="main-content">
+        <section class="about-section">
+            <h2 class="section-title">Nossa história</h2>
+            <p class="section-text">Fundado em 2014, o "meu site" nasceu de paixão de compartilhar conhecimento</p>
+        </section>
+        <section class="about-section">
+            <h2 class="section-title">Nossa missão</h2>
+            <p class="section-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </section>
+        <section class="about-section">
+            <h2 class="section-title">Mosso video de apresentação</h2>
+            <p class="section-text">assista nosso video para saber mais  sobre  a nossa historia, missão e valores.</p>
+            <video class="video" controls>
+                <source src="../media/JAVA.mp4" type="video/mp4" />
+                Seu navegador não suporta a tag vídeos.
+            </video>
+        </section>
+        <section class="about-section">
+            <h2 class="section-title">Nossa Equipe</h2>
+            <p class="section-text">Nossa equipe é composta por profissionais dedicados e apaixonados pelo o que fazem. Cada membro traz uma perspectiva única, contribuindo para a diversidade de ideias e a excelência do conteúdo que publicamos.</p>
+        </section>
+        <section class="about-section">
+            <h2 class="section-title">Entre em contato</h2>
+            <p class="section-text">Gostaria de saber mais sobre nós ou tem alguma pergunta? Fique à vontade para entrar em contato. Estamos sempre abertos a ouvir nossos leitores e parceiros</p>
+            <p class="section-text">Email: <a href="mailto: miguel.sarti@aluno.senai.br" class="email-link">miguel.sarti@aluno.senai.br</a></p>
+
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <address class="content-info">
+            <p class="author-name">Autor: Miguel Sarti</p>
+            <p class="author-email">Email: <a href="mailto: miguel.sarti@aluno.senai.br" class="email-link">miguel.sarti@aluno.senai.br</a></p>
+        </address>
+        <p class="copy-info">&copy;2024 - Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>
